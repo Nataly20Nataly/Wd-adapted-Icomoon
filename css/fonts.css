@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.woff?mimlf5") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"],
+.usinfo li a:before{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-copyright-24px:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\e901";
+}
+.icon-googleplus:before {
+  content: "\e902";
+}
+.icon-ico-services:before {
+  content: "\e903";
+}
+.icon-ico-twitter:before {
+  content: "\e904";
+}
+.icon-line-angle-right:before {
+  content: "\e905";
+}
+.icon-pinterest:before {
+  content: "\e906";
+}
+.icon-round-line-top-arrow:before {
+  content: "\e907";
+}
+.icon-settings_phone-24px:before {
+  content: "\e908";
+}
+.icon-shopping_cart-24px:before {
+  content: "\e909";
+}
+.icon-subject-24px:before {
+  content: "\e90a";
+}
+.icon-track_changes-24px:before {
+  content: "\e90b";
+}
+.icon-view_comfy-24px:before {
+  content: "\e90c";
+}
+.icon-wb_sunny-24px:before {
+  content: "\e90d";
+}
